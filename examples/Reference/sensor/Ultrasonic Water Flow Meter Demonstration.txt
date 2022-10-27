@@ -1,0 +1,12 @@
+[MUSIC PLAYING] Hi. I am Srinivas Lingam. I'm a systems and applications engineer working on TI's MSP430 microcontrollers for water flow meters using ultrasonic technology. Today I will demonstrate the tests we perform for water flow measurements with TI solution. We use a pipe from Audiowell that is widely available. And using the MSP430FR6047 MCU flow meter EVM. 
+
+The excitation frequency of the pipe is nominally 1 megahertz. We measure flow rates in the range of 0.1 GPM to around 4 GPM. The flow set up, we have an overhead tank. We have a pump. We have two reference meters, and the meter under test is in series to the reference meters. We have two parallel reference meters, one for low flow and another for a higher flow range reference meter. 
+
+The GUI is used to configure the software, including the excitation frequency, number of excitation pulses, the ADC sampling frequency, the delay between excitation and start of the capture, and the capture duration. We will change the flow rates over 0.05 GPM to 0.25 GPM using the left arm of the flow setup. We can see the computer time of flight, or the ToF value on the GUI, ToF waveform panel respond to the flow rates. 
+
+Now we will use the right arm of the flow setup for higher flow rates. We can again see the computer ToF respond to the changes in the flow rates. We will also need calibration at two or three points on the flow rate curve, which depends on the characteristics of the flow tube. This shows the measured flow rate against the flow rate displayed by the reference meters. This demonstrates the high accuracy of the solution at all flow rates, including the lowest flow rate of around 0.1 liter per hour. 
+
+In summary, this demo shows the test setup that we use for testing the ultrasonic based water flow meter, MSP430FR6047 MCU base solution, as well as the tests. Please visit the links below for more information on solutions from TI's MSP430 for ultrasonic-based water flow meter solutions and software offerings. 
+
+[MUSIC PLAYING] 
+
